@@ -3,6 +3,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
 
 #header {
     display: flex;
@@ -472,4 +480,371 @@ form .btn:hover {
 .play-btn i {
     font-size: 50px;
     color: #fff;
+}
+
+.route-dev {
+    position: relative;
+    padding: 60px 0px;
+    margin: 60px 0px 120px 0px;
+    background-image: url(https://aptech.vn/wp-content/uploads/2020/10/Group-44.png);
+    background-repeat: no-repeat;
+}
+
+.route-dev-contain {
+    background-image: url(	https://aptech.vn/wp-content/uploads/2020/10/Group-45.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.route-dev-inner {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.route-dev-inner span {
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.route-dev-inner h1 {
+    font-size: 30px;
+    margin: 3% 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.route-btn {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 40px;
+    border: none;
+    background-color: #fff006;
+    transition: 0.2s;
+}
+
+.route-btn:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+.achives {
+    padding: 84px 0px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #4A1BD4 0%, #17C2DC 100%);
+}
+
+.achives-inner {
+    display: block;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.achives-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.achives-title h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.underline {
+    width: 200px;
+    height: 4px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.achives-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.achive {
+    display: flex;
+    width: 500px;
+    padding: 4% 10px;
+    border: 2px solid #fff;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.achive-img {
+    width: 81px;
+    height: 81px;
+    margin-right: 24px;
+    transition: 0.3s;
+}
+
+.achive-img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.achive-content .achive-name {
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.achive-desc {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.achive-btn {
+    margin-top: 50px;
+}
+
+.achive-btn button {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 40px;
+    border: 2px solid #fff;
+    background-color: #05a141;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.achive-btn button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #FF7B06;
+    transition: 0.2s;
+}
+
+.news {
+    background-color: #E9E9E9B5;
+}
+
+.news-inner {
+    width: 1300px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.news-title {
+    margin-top: 64px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news-title h1 {
+    margin-bottom: 25px;
+}
+
+.news-underline {
+    position: relative;
+    width: 35px;
+    height: 4px;
+    background-color: #FF7B06;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.news-underline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -27px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #FF7B06;
+    box-shadow:
+    9px 0px 0px 0px #FF7B06,
+    18px 0px 0px 0px #FF7B06;
+}
+
+.news-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.new {
+    width: 290px;
+    padding: 6px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.new:hover img {
+    transform: scale(1.05) rotate(2deg);
+    transition: 0.3s;
+}
+
+.new img {
+    width: 100%;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.new-content {
+    padding: 10px 15px;
+}
+
+.make-date {
+    margin-bottom: 10px;
+    color: #0b249e;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.post {
+    margin-bottom: 35px;
+    font-size: 14px;
+    color: #0b249e;
+    cursor: pointer;
+}
+
+.new-desc {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.detail-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: #2575fc;
+    margin: 10px 0px;
+    transition: 0.2s;
+}
+
+.detail-btn:hover {
+    cursor: pointer;
+    background-color: #0350D2;
+    transition: 0.2s;
+}
+
+.cooperation {
+    position: relative;
+    margin: 50px 0px;
+}
+
+.coop-inner {
+    width: 1400px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.coop-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.coop-slides {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    margin-top: 25px;
+}
+
+.coop-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 242px;
+}
+
+.coop-slide img {
+    width: 100%;
+}
+
+.cooperation .controls {
+    position: absolute;
+    top: calc(50% + 10px);
+}
+
+.cooperation .control:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.cooperation .controls i {
+    color: #000;
+}
+
+.footer {
+    padding: 40px 0px 50px 0px;
+    background-color: #2F319E;
+}
+
+.footer-inner {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-courses {
+    padding-right: 30px;
+    width: 30%;
+}
+
+.footer-inner a {
+    color: #fff;
+    display: block;
+    padding: 10px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-contact {
+    width: 35%;
+    padding-right: 40px;
+}
+
+.footer-inner h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 34px;
+}
+
+.address {
+    line-height: 40px;
+}
+
+.footer-register {
+    width: 35%;
+    padding-left: 40px;
+}
+
+form {
+    width: 100%;
+}
+
+.footer-register form input, .footer-register form select {
+    width: 90%;
+}
+
+.footer-register form .btn {
+    width: 100%;
 }
