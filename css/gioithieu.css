@@ -100,7 +100,7 @@ body{
 .p_1{
     text-align: justify;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 28px;
     margin-bottom: 25px;
 }
 .p_1-bold{
@@ -132,4 +132,14 @@ body{
 }
 .sub-list-item{
     margin-bottom: 8px;
+    cursor: pointer;
+}
+.list-programs .list-item{
+    cursor: pointer;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.mb0{
+    margin-bottom: 0px;
 }
