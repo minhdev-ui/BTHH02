@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #header {
     display: flex;
     width: 1200px;
@@ -83,4 +86,50 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+#paragraph-one{
+    width: 677px;
+    padding-left: 110px;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.p_1{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+.p_1-bold{
+    font-weight: 800;
+}
+.list-item{
+    text-align: justify;
+    list-style-type: disc;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.title_one{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 40px 0px 50px 0px;
+    color:  #0b63c7;
+}
+.list{
+    margin-left: 30px;
+}
+.list-item:last-child{
+    margin-bottom: 30px;
+}
+.sub-list{
+    margin-left: 20px;
+    list-style: circle;
+    margin-top: 5px;
+}
+.sub-list-item{
+    margin-bottom: 8px;
 }
