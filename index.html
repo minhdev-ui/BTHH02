@@ -19,7 +19,9 @@
     <div id="wrapper">
       <div id="header">
         <div class="logo">
-          <img src="./images/LOGO-APTECH-03-02-1.png" alt="" />
+          <a href="index.html">
+            <img src="./images/LOGO-APTECH-03-02-1.png" alt="" />
+          </a>
         </div>
         <div class="nav">
           <ul class="nav-list">
@@ -32,7 +34,7 @@
               ></a>
               <ul class="sub-menu">
                 <li class="sub-menu_item">
-                  <a href="#" class="sub-menu_link">Giới thiệu</a>
+                  <a href="./pages/gioithieu.html" class="sub-menu_link">Giới thiệu</a>
                 </li>
                 <li class="sub-menu_item">
                   <a href="#" class="sub-menu_link">Cơ sở vật chất</a>
@@ -173,23 +175,114 @@
         </div>
       </div>
       <div class="register">
-        <div class="register_form">
-          <form action="">
-            <input type="text" placeholder="Họ và Tên">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Số điện thoại">
-            <select name="" id="">
-              <option value="student">Học Sinh</option>
-              <option value="students">Sinh Viên</option>
-              <option value="job">Đi Làm</option>
-              <option value="other">Khác</option>
-            </select>
-            <input type="text" placeholder="Lời nhắn">
-            <button class="btn">Gửi Đăng Ký</button>
-          </form>
+        <div class="register_body">
+          <div class="register_form">
+            <div class="head_title">
+              <p>bứt phá sự nghiệp cho năm 2022</p>
+              <span>học bổng 25.000.000 vnd</span>
+            </div>
+            <form action="">
+              <input type="text" placeholder="Họ và Tên" required>
+              <input type="email" placeholder="Email" required>
+              <input type="text" placeholder="Số điện thoại" required>
+              <select name="" id="" required>
+                <option value="">Trình Độ</option>
+                <option value="student">Học Sinh</option>
+                <option value="students">Sinh Viên</option>
+                <option value="job">Đi Làm</option>
+                <option value="other">Khác</option>
+              </select>
+              <textarea name="message" id="message" rows="6" placeholder="Lời Nhắn"></textarea>
+              <button class="btn">Gửi Đăng Ký</button>
+            </form>
+          </div>
+          <div class="icon">
+            <img src="./images/iconn-01-01-01.png" alt="">
+          </div>
         </div>
-        <div class="icon">
-          <img src="./images/iconn-01-01-01.png" alt="">
+        <div class="register_footer">
+          <div class="register_footer-inner">
+            <span class="register_footer-up">
+              <span class="register_footer-number">20</span> 
+              Năm
+            </span>
+            <span class="register_footer-down">Kinh nghiệm</span>
+          </div>
+          <div class="register_footer-inner">
+            <span class="register_footer-up">
+              <span class="register_footer-number">40</span> 
+              +
+            </span>
+            <span class="register_footer-down">quốc gia</span>
+          </div>
+          <div class="register_footer-inner">
+            <span class="register_footer-up">
+              <span class="register_footer-number">100</span> 
+              %
+            </span>
+            <span class="register_footer-down">có việc làm</span>
+          </div>
+          <div class="register_footer-inner">
+            <span class="register_footer-up">
+              <span class="register_footer-number">10</span> 
+              Nghìn
+            </span>
+            <span class="register_footer-down">học viên</span>
+          </div>
+        </div>
+      </div>
+      <div class="content-slogan">
+        <div class="content-slogan-left">
+          <h1 class="content-slogan-left-title">tập đoàn aptech</h1>
+          <p>20 năm tiên phong đào tạo lập trình tại việt nam</p>
+        </div>
+        <div class="content-slogan-right">
+          <p class="slogan">“We don’t keep up with technology. We stay ahead of it – Chúng tôi không chạy theo công nghệ. Chúng tôi đón đầu công nghệ!”</p>
+          <button class="join-btn">
+            tham gia khóa học
+          </button>
+        </div>
+      </div>
+      <div class="content-benefit">
+        <div class="content-benefit-inner">
+          <div class="content-benefit-left">
+            <video src="https://aptech.vn/wp-content/uploads/2021/12/8016999485985355699.mp4" controls poster="https://aptech.vn/wp-content/uploads/2021/04/z2825896269505_f0a281e7b1195927e2dc6b762272eec7.jpg"></video>
+            <div class="video-overlay">
+              <div class="play-btn" role="button">
+                <i class="fa-regular fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="content-benefit-right">
+            <h1>lập trình để thay đổi tương lai</h1>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="benefit-content">
+                <h2>phát triển tư duy sáng tạo</h2>
+                <p>Lập trình giúp bạn phát huy tối đa tư duy logic của bản thân và giúp bạn nhạy bén trong việc giải quyết vấn đề.</p>
+              </div>
+            </div>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <i class="fa-regular fa-handshake"></i>
+              </div>
+              <div class="benefit-content">
+                <h2>CÓ NHIỀU CƠ HỘI VIỆC LÀM</h2>
+                <p>Thị trường trong và ngoài nước luôn "khát" nguồn nhân lực. Tính đến năm 2021 Việt Nam thiếu 450000 ngành CNTT.</p>
+              </div>
+            </div>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+              </div>
+              <div class="benefit-content">
+                <h2>LƯƠNG CAO NHIỀU ĐÃI NGỘ</h2>
+                <p>Lương của ngành CNTT luôn nằm trong TOP các ngành lương cao trên Thế Giới.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
