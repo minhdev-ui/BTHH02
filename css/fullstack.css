@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+.navbar-collapse{
+    justify-content: center;
+}
+>>>>>>> 7a16edb6b951d03016550cfe7b1eff0f2ab57dba
 .container-fluid{
     padding: 0;
 }
@@ -6,6 +12,7 @@
     padding: 20px;
     border: 2px solid blue;
     border-radius: 8px;
+<<<<<<< HEAD
 }   
 .navbar{
     width: 1200px; 
@@ -16,4 +23,6 @@
     margin-bottom: 20px;
     font-weight: 600;
     line-height: 35px;
+=======
+>>>>>>> 7a16edb6b951d03016550cfe7b1eff0f2ab57dba
 }
