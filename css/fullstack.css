@@ -1,6 +1,3 @@
-.navbar-collapse{
-    justify-content: center;
-}
 .container-fluid{
     padding: 0;
 }
@@ -9,4 +6,14 @@
     padding: 20px;
     border: 2px solid blue;
     border-radius: 8px;
+}   
+.navbar{
+    width: 1200px; 
+    margin:0 auto;
+}
+.introduce{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 35px;
 }
