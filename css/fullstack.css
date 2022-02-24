@@ -1,0 +1,12 @@
+.navbar-collapse{
+    justify-content: center;
+}
+.container-fluid{
+    padding: 0;
+}
+.navbar-brand img{width: 230px}
+.card{
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
