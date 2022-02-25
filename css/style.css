@@ -99,40 +99,12 @@ a {
     }
 }
 
-#banner {
-    z-index: 0;
+.carousel-control-prev {
+    justify-content: flex-start;
 }
 
-#banner img {
-    position: relative;
-    width: 100%;
-}
-
-.controls {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    top: 50%;
-    border-radius: 50%;
-}
-
-.control {
-    padding: 0px 10px;
-    cursor: pointer;
-}
-
-.control:hover i {
-    color: #BDC1C3;
-}
-
-.control:hover{
-    background-color: #ccc;
-}
-
-.control i {
-    font-size: 30px;
-    color: #fff;
+.carousel-control-next {
+    justify-content: flex-end;
 }
 
 .content{
@@ -313,7 +285,6 @@ form .btn:hover {
 .content-slogan {
     display: flex;
     width: 1100px;
-    height: 216px;
     margin: 0 auto;
     padding: 96px 0px;
     justify-content: space-between;
@@ -761,6 +732,7 @@ form .btn:hover {
     align-items: center;
     padding: 10px 0px;
     margin-top: 25px;
+    overflow: hidden;
 }
 
 .coop-slide {
@@ -768,7 +740,8 @@ form .btn:hover {
     justify-content: center;
     align-items: center;
     height: 170px;
-    width: 242px;
+    min-width: 20%;
+    transform: translateX(690px);
 }
 
 .coop-slide img {
@@ -787,6 +760,14 @@ form .btn:hover {
 
 .cooperation .controls i {
     color: #000;
+}
+
+.cooperation .controls {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
 }
 
 .footer {
@@ -848,3 +829,4 @@ form {
 .footer-register form .btn {
     width: 100%;
 }
+
