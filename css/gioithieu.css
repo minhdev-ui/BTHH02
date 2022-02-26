@@ -308,3 +308,31 @@ form select {
     padding: 10px 0px;
     border-bottom: 1px solid #f1f1f1;
 }
+
+.active {
+    display: block !important;
+    border-bottom: 1px solid #ccc;
+    animation: slideDown linear 0.2s;
+}
+
+.qualified-content {
+    display: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    height: 100%;
+    overflow: hidden;
+    transform-origin: top;
+    transition: 0.5s;
+}
+
+@keyframes slideDown {
+	from {
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+    }
+}

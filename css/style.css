@@ -736,12 +736,9 @@ form .btn:hover {
 }
 
 .coop-slide {
-    display: flex;
-    justify-content: center;
+    display: flex !important;
     align-items: center;
-    height: 170px;
-    min-width: 20%;
-    transform: translateX(690px);
+    min-height: 170px !important;
 }
 
 .coop-slide img {
