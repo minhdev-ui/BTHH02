@@ -1,28 +1,411 @@
-<<<<<<< HEAD
-=======
-.navbar-collapse{
-    justify-content: center;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
->>>>>>> 7a16edb6b951d03016550cfe7b1eff0f2ab57dba
-.container-fluid{
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.container-fluid {
     padding: 0;
 }
-.navbar-brand img{width: 230px}
-.card{
+
+.navbar-brand img {
+    width: 230px;
+}
+
+.card {
     padding: 20px;
     border: 2px solid blue;
     border-radius: 8px;
-<<<<<<< HEAD
-}   
-.navbar{
-    width: 1200px; 
-    margin:0 auto;
 }
-.introduce{
-    font-size: 20px;
+
+#header {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 250px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list_item a {
+    position: relative;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: 0.2s linear;
+}
+
+.nav-list_item a:hover{
+    color: #0B249E;
+    transition: 0.2s linear;
+}
+
+.sub-menu, .sub-menu_mega {
+    display: none;
+    position: absolute;
+    padding: 10px 0px;
+    width: 240px;
+    top: 52px;
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    box-shadow: 0px 5px 5px 0px #000;
+    animation: slidedown linear 0.2s;
+    z-index: 1;
+}
+
+.sub-menu_mega {
+    top: 80px;
+    left: 240px;
+}
+
+.sub-menu_item {
+    border-bottom: 1px solid #000;
+    transition: 0.2s;
+}
+
+.sub-menu_item:last-child {
+    border-bottom: none;
+}
+
+.sub-menu_item a:hover {
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.nav-list_item:hover .sub-menu {
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.mega:hover .sub-menu_mega {
+    display: block;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@keyframes slidedown{
+    from{
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.introduce {
+    font-size: 16px;
     margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.card-icon {
+    font-size: 40px;
+    color: #0b249e;
+    transition: 0.2s;
+}
+
+.card-icon:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.card-job {
+    width: 300px;
+    padding: 2px;
+    border: none;
+    border-radius: 0px;
+    margin: 0px 10px;
+    height: 260px;
+    transition: 0.3s;
+}
+
+.card-img {
+    overflow: hidden;
+}
+
+.card-job {
+    font-size: 15px;
     font-weight: 600;
-    line-height: 35px;
-=======
->>>>>>> 7a16edb6b951d03016550cfe7b1eff0f2ab57dba
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-job img {
+    transition: 0.3s;
+}
+
+.card-job:hover img {
+    overflow: hidden;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.card-job:hover h5 {
+    color: #2575FC;
+    transition: 0.3s;
+}
+
+.register-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-btn button {
+    border: 3px solid #fff;
+    padding: 10px 10px 10px 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.register-btn button:hover {
+    transform: scale(1.1);
+    background-color: #FF7B06;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.head_title p {
+    display: block;
+    font-size: 24px;
+    color: #f5ec10;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.head_title span {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 10px;
+}
+
+form input, form select {
+    display: block;
+    padding: 10px;
+    margin: 10px 0px;
+    font-weight: 500;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    background-color: #F4F4F4;
+}
+
+
+::placeholder{
+    color: #000;
+    font-size: 16px;
+    padding: 5px;
+}
+
+form .btn {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #000;
+    background-color: #edb017;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form .btn:hover {
+    background-color: #008FCA;
+    color: #fff;
+    transition: 0.2s;
+}
+
+li {
+    list-style-type: none;
+}
+
+.detail-course {
+    display: flex;
+    margin: 20px 0px 6.5px 0px;
+    align-items: center;
+}
+
+.detail-course i, .time-course i {
+    padding-right: 15px;
+    color: yellow;
+}
+
+.times-course {
+    margin: 20px 0px 10px 20px;
+}
+
+.time-course {
+    display: flex;
+    padding-bottom: 13px;
+    margin-top: 6.5px;
+    align-items: center;
+}
+
+.course-content {
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.course-content:first-child {
+    margin-top: 60px;
+}
+
+.course-fee {
+    margin-top: 50px;
+}
+
+.course-fee-detail {
+    text-decoration: none;
+    color: #000;
+}
+
+.cooperation {
+    position: relative;
+    margin: 50px 0px;
+}
+
+.coop-inner {
+    width: 1400px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.coop-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.coop-slides {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.coop-slide {
+    display: flex !important;
+    align-items: center;
+    min-height: 170px !important;
+}
+
+.coop-slide img {
+    width: 100%;
+}
+
+.cooperation .controls {
+    position: absolute;
+    top: calc(50% + 10px);
+}
+
+.cooperation .control:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.cooperation .controls i {
+    color: #000;
+}
+
+.cooperation .controls {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.footer {
+    padding: 40px 0px 50px 0px;
+    background-color: #2F319E;
+}
+
+.footer-inner {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-courses {
+    padding-right: 30px;
+    width: 30%;
+}
+
+.footer-inner a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-contact {
+    width: 35%;
+    padding-right: 40px;
+}
+
+.footer-inner h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 34px;
+}
+
+.address {
+    line-height: 40px;
+}
+
+.footer-register {
+    width: 35%;
+    padding-left: 40px;
+}
+
+form {
+    width: 100%;
+}
+
+.footer-register form input, .footer-register form select {
+    width: 90%;
+}
+
+.footer-register form .btn {
+    width: 100%;
 }
