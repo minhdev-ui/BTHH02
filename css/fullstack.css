@@ -47,12 +47,13 @@ body {
     transition: 0.2s linear;
 }
 
-.nav-list_item a:hover{
+.nav-list_item a:hover {
     color: #0B249E;
     transition: 0.2s linear;
 }
 
-.sub-menu, .sub-menu_mega {
+.sub-menu,
+.sub-menu_mega {
     display: none;
     position: absolute;
     padding: 10px 0px;
@@ -96,12 +97,13 @@ body {
     transition: 0.5s;
 }
 
-@keyframes slidedown{
-    from{
+@keyframes slidedown {
+    from {
         opacity: 0;
         transform: translateY(-10%);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateY(0);
     }
@@ -208,7 +210,8 @@ form {
     margin-left: 10px;
 }
 
-form input, form select {
+form input,
+form select {
     display: block;
     padding: 10px;
     margin: 10px 0px;
@@ -220,7 +223,7 @@ form input, form select {
 }
 
 
-::placeholder{
+::placeholder {
     color: #000;
     font-size: 16px;
     padding: 5px;
@@ -255,7 +258,8 @@ li {
     align-items: center;
 }
 
-.detail-course i, .time-course i {
+.detail-course i,
+.time-course i {
     padding-right: 15px;
     color: yellow;
 }
@@ -284,9 +288,24 @@ li {
     margin-top: 50px;
 }
 
-.course-fee-detail {
+.course-fee-btn {
     text-decoration: none;
     color: #000;
+    cursor: pointer;
+}
+
+.course-fee-btn:hover {
+    color: inherit;
+}
+
+.course-fee-detail {
+    margin-top: 20px;
+}
+
+.course-fee-detail li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: disc !important;
 }
 
 .cooperation {
@@ -402,7 +421,8 @@ form {
     width: 100%;
 }
 
-.footer-register form input, .footer-register form select {
+.footer-register form input,
+.footer-register form select {
     width: 90%;
 }
 

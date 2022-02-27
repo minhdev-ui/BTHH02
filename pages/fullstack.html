@@ -222,7 +222,7 @@
                     </div>
                 </div>
                 <div class="row" style="width: 1350px; margin:0 auto; padding: 25px 0px 40px 0px; ">
-                    <p class="text-center" style="color: white; font-size: 20px; font-weight: 600; line-height: 1.4">
+                    <p class="text-center" style="color: white; font-size: 17px; font-weight: 600; line-height: 1.4">
                         Chương trình học Kỹ thuật viên Quốc Tế được triển khai dựa trên mô hình đào tạo hiện đại, đa
                         phương thức AMEDA (Aptech Multi-modal Education Delivery Architecture) chú trọng nâng cao kỹ
                         năng thực hành, định hướng, thực hiện các dự án cuối mỗi học kỳ.</p>
@@ -322,7 +322,12 @@
                         <p class="course-content">6. PHP Development with Laravel Framework – 24 giờ</p>
                         <p class="course-content">7. Project PHP – 8 giờ</p>
                         <div class="course-fee">
-                            <a href="" class="course-fee-detail fw-bold">Học phí khóa học</a>
+                            <a class="course-fee-btn fw-bold">Học phí khóa học</a>
+                            <ul class="course-fee-detail" id="course-fee-detail">
+                              <li>Học sinh: 13.280.000 VNĐ</li>
+                              <li>Sinh viên: 12.450.000 VNĐ</li>
+                              <li>Người đi làm: 16.600.000 VNĐ</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -447,6 +452,13 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="../js/slider.js"></script>
+    <script>
+      $('.course-fee-detail').hide();
+      $('.course-fee-btn').click(() => {
+        $('.course-fee-detail').toggleClass('active');
+        $('.course-fee-detail').hasClass('active') ? $('.course-fee-detail').show(500) : $('.course-fee-detail').hide(500)
+      })
+    </script>
 </body>
 
 </html>
