@@ -309,14 +309,8 @@ form select {
     border-bottom: 1px solid #f1f1f1;
 }
 
-.active {
-    display: block !important;
-    border-bottom: 1px solid #ccc;
-    animation: slideDown linear 0.2s;
-}
 
 .qualified-content {
-    display: none;
     padding: 15px 20px;
     font-size: 15px;
     font-weight: 600;
@@ -325,15 +319,6 @@ form select {
     height: 100%;
     overflow: hidden;
     transform-origin: top;
-}
-
-@keyframes slideDown {
-	from {
-        transform: scaleY(0);
-    }
-    to{
-        transform: scaleY(1);
-    }
 }
 
 .cooperation {
