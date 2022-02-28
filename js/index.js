@@ -23,14 +23,24 @@ $('.play-btn').click(() => {
     $('.video-overlay').remove();
     vid.play();
 })
-$('.register_footer-number').each(function () {
-    $(this).prop('Counter', 0).animate({
-        Counter: $(this).text()
-    }, {
-        duration: 3000,
-        easing: 'swing',
-        step: function (now) {
-            $(this).text(Math.ceil(now));
-        }
-    });
-});
+
+var a = 0;
+
+$(window).scroll(function() {
+    if(a == 0 && $(this).scrollTop() >= $('.register_footer-number').offset().top - $(this).height()){
+        $('.register_footer-number').each(function () {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 3000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+        a = 1;
+    }
+})
+
+
