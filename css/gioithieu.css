@@ -308,3 +308,176 @@ form select {
     padding: 10px 0px;
     border-bottom: 1px solid #f1f1f1;
 }
+
+
+.qualified-content {
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    height: 100%;
+    overflow: hidden;
+    transform-origin: top;
+}
+
+.cooperation {
+    position: relative;
+    margin: 50px 0px;
+}
+
+.coop-inner {
+    width: 1400px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.coop-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.coop-slides {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.coop-slide {
+    display: flex !important;
+    align-items: center;
+    min-height: 170px !important;
+}
+
+.coop-slide img {
+    width: 100%;
+}
+
+.cooperation .controls {
+    position: absolute;
+    top: calc(50% + 10px);
+}
+
+.cooperation .control:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.cooperation .controls i {
+    color: #000;
+}
+
+.cooperation .controls {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.footer {
+    padding: 40px 0px 50px 0px;
+    background-color: #2F319E;
+}
+
+.footer-inner {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-courses {
+    padding-right: 30px;
+    width: 30%;
+}
+
+.footer-inner a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-contact {
+    width: 35%;
+    padding-right: 40px;
+}
+
+.footer-inner h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 34px;
+}
+
+.address {
+    line-height: 40px;
+}
+
+.footer-register {
+    width: 35%;
+    padding-left: 40px;
+}
+
+form input, form select {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    background-color: #F4F4F4;
+}
+
+
+::placeholder{
+    color: #000;
+    font-size: 16px;
+    padding: 5px;
+}
+
+form .btn {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #000;
+    background-color: #edb017;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+form .btn:hover {
+    background-color: #008FCA;
+    color: #fff;
+    transition: 0.2s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.footer-register form input, .footer-register form select {
+    width: 90%;
+}
+
+.footer-register form .btn {
+    width: 100%;
+}
