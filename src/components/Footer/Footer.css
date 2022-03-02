@@ -1,0 +1,119 @@
+.cooperation {
+    position: relative;
+    margin: 50px 0px;
+}
+
+.coop-inner {
+    width: 1400px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.coop-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.coop-slides {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.coop-slide {
+    display: flex !important;
+    align-items: center;
+    min-height: 170px !important;
+}
+
+.coop-slide img {
+    width: 100%;
+}
+
+.cooperation .controls {
+    position: absolute;
+    top: calc(50% + 10px);
+}
+
+.cooperation .control:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.cooperation .controls i {
+    color: #000;
+}
+
+.cooperation .controls {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.footer {
+    padding: 40px 0px 50px 0px;
+    background-color: #2F319E;
+}
+
+.footer-inner {
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-courses {
+    padding-right: 30px;
+    width: 30%;
+}
+
+.footer-inner a {
+    color: #fff;
+    display: block;
+    padding: 10px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer-contact {
+    width: 35%;
+    padding-right: 40px;
+}
+
+.footer-inner h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    height: 34px;
+}
+
+.address {
+    line-height: 40px;
+}
+
+.footer-register {
+    width: 35%;
+    padding-left: 40px;
+}
+
+form {
+    width: 100%;
+}
+
+.footer-register form input, .footer-register form select {
+    width: 90%;
+}
+
+.footer-register form .btn {
+    width: 100%;
+}
